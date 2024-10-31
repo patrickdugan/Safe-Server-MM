@@ -1,0 +1,31 @@
+{
+    "name": "bitcoin-address-derivation",
+    "version": "1.0.0",
+    "description": "A local script for generating Bitcoin addresses and signing transactions.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "bip32": "^2.0.5",
+        "bip39": "^3.0.4",
+        "bitcoinjs-lib": "^6.1.0",
+        "bs58check": "^4.0.0",
+        "elliptic": "^6.5.3",
+        "ethers": "^5.4.7",
+        "hash.js": "^1.1.7",
+        "js-sha3": "^0.8.0",
+        "near-api-js": "^5.0.1",
+        "viem": "^1.0.0"
+    },
+    "keywords": [
+        "bitcoin",
+        "address",
+        "derivation",
+        "signing",
+        "near"
+    ],
+    "author": "Your Name",
+    "license": "MIT"
+}
